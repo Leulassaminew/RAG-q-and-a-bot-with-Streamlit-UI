@@ -9,12 +9,14 @@ from langchain.document_loaders import TextLoader
 from langchain.document_loaders import Docx2txtLoader
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.chat_models import ChatOpenAI
+from langchain.embeddings.openai import OpenAIEmbeddings
 
 import os
 
 os.environ["OPENAI_API_KEY"]="put your api key here"
 embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
-
+#embeddings = OpenAIEmbeddings()
+     
 def get_pdf_text():
     document=[]
     for file in os.listdir("docs"):
