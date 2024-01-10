@@ -1,0 +1,11 @@
+langchain==0.1.0
+bitsandbytes 
+accelerate 
+xformers 
+einops
+datasets 
+loralib 
+sentencepiece
+pypdf
+sentence_transformers
+chromadb
