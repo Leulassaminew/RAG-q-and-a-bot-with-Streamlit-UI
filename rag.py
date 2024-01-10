@@ -12,7 +12,7 @@ from langchain.chat_models import ChatOpenAI
 
 import os
 
-os.environ["OPENAI_API_KEY"]="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"
+os.environ["OPENAI_API_KEY"]="put your api key here"
 embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
 
 def get_pdf_text():
