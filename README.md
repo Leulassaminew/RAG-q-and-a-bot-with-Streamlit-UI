@@ -15,7 +15,7 @@
    ```sh
          git clone https://github.com/Leulassaminew/RAG-q-and-a-bot-with-Streamlit-UI.git
    ```  
-* change to the new directory
+* change to the new directory and create a folder named "docs" and move all your documents to it 
    ```sh
          cd RAG-q-and-a-bot-with-Streamlit-UI
    ```
