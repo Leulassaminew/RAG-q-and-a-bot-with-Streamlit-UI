@@ -13,11 +13,11 @@
 ### Details about the Variable
 * First cone the repo
    ```sh
-              git clone 
+         git clone https://github.com/Leulassaminew/RAG-q-and-a-bot-with-Streamlit-UI.git
    ```  
 * change to the new directory
    ```sh
-         cd 
+         cd RAG-q-and-a-bot-with-Streamlit-UI
    ```
 * install the requirements
    ```sh
